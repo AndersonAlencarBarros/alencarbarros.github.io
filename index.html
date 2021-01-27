@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anderson de Alencar</title>
-
-    <!-- <link rel="stylesheet" href="https://andersonalencarbarros.github.io/alencarbarros.github.io/style.css"> -->
+ 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
 
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <main>
@@ -19,19 +20,38 @@
             <header class="header-div">
                 <h1>Anderson de Alencar Barros</h1> 
                 <div>
-                    <a class="contact" href="#!">About me</a>
-                    <a class="contact" href="#!">Articles &amp; Guides</a>
-                    <a class="contact" href="#!">Projects</a>
+                    <a class="menu-item" href="#!">About me</a>
+                    <a class="menu-item" href="#!">Articles &amp; Guides</a>
+                    <a class="menu-item" href="#!">Projects</a>
                 </div>
             </header>
-            <address>
-                <div>
-                    <a class="contact" href="https://github.com/AndersonAlencarBarros" target="_blank">Github</a>
-                    <a class="contact" href="https://www.linkedin.com/in/andersonalencarbarros/" target="_blank">LinkedIn</a>
-                    <a class="contact" href="https://dev.to/andersonalencarbarros" target="_blank">DEV Community</a>
+            <address> 
+                <div class="Github">
+                    <a class="menu-item" href="https://github.com/AndersonAlencarBarros" target="_blank">
+                        
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                        Github
+                    </a>
                 </div>
-                
-                <span>andersonalencarbarros@gmail.com</span>
+                <div class="LinkedIn">
+                    <a class="menu-item" href="https://www.linkedin.com/in/andersonalencarbarros/" target="_blank">
+
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    LinkedIn
+                    </a>
+                </div>
+                <div class="DEV_Community"> 
+                    <a class="menu-item" href="https://dev.to/andersonalencarbarros" target="_blank">
+                        <img class="dev-badge" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Anderson de Alencar's DEV Community Profile" height="17" width="17">
+                        DEV Community
+                    </a>  
+                </div> 
+                <div class="Email">
+                    <a class="menu-item" href="mailto:andersonalencarbarros@gmail.com">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span>Email</span> 
+                    </a>
+                </div>
             </address>
             <div class="about-me">
                 <p>
@@ -53,27 +73,7 @@
                             Over the past few years, I’ve been de­vel­op­ing an ef­fi­cient way to struc­ture and or­ga­nize my LaTeX lec­ture notes. In this blog post, I’ll ex­plain my cur­rent so­lu­tion. I’ve talked about tak­ing notes and draw­ing fig­ures be­fore, which makes this the third post in a se­ries ex­plain­ing my note tak­ing setup.
                         </p>
                     </a>  
-                </div>
-                <div class="link-div">
-                    <a href="#!">
-                        <time datetime="2021-01">Jan, 2021</time>
-                        <h2>How I manage my LaTeX lecture notes</h2>
-                        
-                        <p>
-                            Over the past few years, I’ve been de­vel­op­ing an ef­fi­cient way to struc­ture and or­ga­nize my LaTeX lec­ture notes. In this blog post, I’ll ex­plain my cur­rent so­lu­tion. I’ve talked about tak­ing notes and draw­ing fig­ures be­fore, which makes this the third post in a se­ries ex­plain­ing my note tak­ing setup.
-                        </p>
-                    </a>  
-                </div>
-                <div class="link-div">
-                    <a href="#!">
-                        <time datetime="2021-01">Jan, 2021</time>
-                        <h2>How I manage my LaTeX lecture notes</h2>
-                        
-                        <p>
-                            Over the past few years, I’ve been de­vel­op­ing an ef­fi­cient way to struc­ture and or­ga­nize my LaTeX lec­ture notes. In this blog post, I’ll ex­plain my cur­rent so­lu­tion. I’ve talked about tak­ing notes and draw­ing fig­ures be­fore, which makes this the third post in a se­ries ex­plain­ing my note tak­ing setup.
-                        </p>
-                    </a>  
-                </div>  
+                </div> 
         </section>
            
         <section>
@@ -101,6 +101,7 @@
                 </a>  
             </div>
         </section>
+    
     </main>
     
     <script src="app.js"></script>

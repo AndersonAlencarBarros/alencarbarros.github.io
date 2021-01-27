@@ -1,5 +1,5 @@
 html {
-  /* font-family: 'Open Sans', sans-serif; */ 
+  /* font-family: 'Open Sans', sans-serif;  */
   font-family: 'Playfair Display', serif;
   font-size: 16px;
   background-color: wheat; 
@@ -17,9 +17,18 @@ h1 {
 }
 
 address {
+  display: flex;
+  align-items: center;
   margin-top: 0%;
-  align-items: left;
   font-style: normal;
+}
+
+.dev-badge {
+  margin-bottom: -2.3px;
+}
+
+.fa {
+  margin: 2px;
 }
  
 main {
@@ -47,15 +56,15 @@ main {
 }
 
 a {
-  color: #000;
+  color: #000; 
   text-decoration: none;
 }
 
-.contact { 
+.menu-item { 
   margin-right: 10px;
 }
 
-.contact:hover {
+.menu-item:hover {
   font-weight: 600;
 }
 
@@ -84,13 +93,17 @@ img.responsive-image {
   height: auto;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px; 
+  text-align: center;
+}
+
 @media screen and (max-width: 850px) {
   html {
     font-size: 14px; 
-  }
-
-  h1 {
-    font-size: 40px;
   }
   
   .header-div { 
